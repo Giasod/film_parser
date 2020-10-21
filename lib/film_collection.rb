@@ -1,6 +1,4 @@
 require_relative 'film'
-require 'nokogiri'
-require 'open-uri'
 
 class FilmCollection
   attr_reader :films

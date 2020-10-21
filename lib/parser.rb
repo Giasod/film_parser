@@ -1,4 +1,6 @@
 require_relative 'film'
+require 'nokogiri'
+require 'open-uri'
 
 module Parser
   extend self
